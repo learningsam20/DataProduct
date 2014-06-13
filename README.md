@@ -1,7 +1,7 @@
 DataProduct
 ===========
 
-Shiny App:
+SAMHIST Shiny App:
 The shiny app allows users to create a dynamic user interface for input as well as output controls. It uses shiny library and default faithful dataframe provided by the library. This dataset has got data of eruptions and waiting time for certain operations. The application developed would help visualize the frequency of eruptions for given waiting time range.
 It consists of a slider that depicts the range of waiting time. Users can select min and max range values.
 The right panel displays the histogram showing distribution of eruption frequency over waiting time. This would be helpful for quick analysis of the faithful dataset.
