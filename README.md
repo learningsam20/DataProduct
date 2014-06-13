@@ -19,3 +19,5 @@ Place both server.R and ui.R in the same folder
 Set working directory to the above folder
 Execute runApp() from command promopt
 This should open the shiny web app
+
+Alternatively, it can also be launched from https://learningsam.shinyapps.io/samhist/
