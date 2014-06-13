@@ -27,7 +27,7 @@ shinyServer(function(input,output)
   
   # This is the histogram of waiting time vs frequency of eruptions for that waiting time range
   output$uiplot <- renderPlot({
-    if(!is.na(input$waitingrange))
+    if(!is.null(input$waitingrange))
     {
       hist(x=inData$waiting[inData$waiting <= max(input$waitingrange) & inData$waiting >= min(input$waitingrange)],
          breaks=seq(min(input$waitingrange),max(input$waitingrange),by=10),col='blue',border='yellow',
